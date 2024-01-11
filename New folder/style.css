@@ -1,0 +1,128 @@
+           
+            .navbar{display: flex; background-color: rgba(3, 3, 3, 0.858);
+                margin: -1%;
+                padding: -5px;
+                overflow: auto;
+                
+            }
+            .navelements{margin-left: 5%;
+                text-decoration: none;
+                color: rgb(255, 255, 255);
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                text-align: justify;}
+            
+            a:active{
+                text-underline-offset: 70%;
+                text-decoration:underline;
+                text-decoration-color: #05f1be;
+                text-decoration-thickness: 0.9px;
+            }
+            a:hover{
+                text-underline-offset: 70%;
+                text-decoration:underline;
+                text-decoration-color:#04AA6D;
+                text-decoration-thickness: 0.9px;
+            }
+            .main{
+                color: white;
+                font-family: "Poppins", sans-serif;
+            }
+            .mainbody{
+                background-color: #f4f4f4;
+                margin-right: -5px;
+                margin-left: -5px;
+            }
+           
+            .main{
+                font-family: "Poppins", sans-serif;
+            }
+
+            .main {
+                display: flex;
+                background-image:url('assets/lights.jpg');
+                background-size: 100%;
+                align-items: center;
+                justify-content: center;
+                margin-top: 6px;
+            }
+            .main {
+                position: relative;
+            }
+            .About{
+                background-color: rgb(218, 218, 218) ;
+                padding: 1%;
+                margin-left: -1%;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+            .Skills{
+                background-color: rgb(249, 249, 249) ;
+                padding: 1%;
+                margin-left: -1%;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+            .Notes{
+                background-color: rgb(218, 218, 218) ;
+                padding: 1%;
+                margin: -1%;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+            .projects{
+                background-color: rgb(255, 255, 255) ;
+                padding: 1%;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+            button{
+                background-color: #04AA6D;
+                color:white;
+                font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                border: 0px;
+                padding: 10px;
+                border-radius: 20px;
+                margin-left: 12%;
+                cursor: pointer;
+
+            }
+            .contact{
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                background-image:url('/assets/background_in_space.gif') ;
+                padding: 1%;
+                color: white;
+                text-decoration: none;
+            }
+            
+            .fotter{
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                text-align: center;
+                background-image:url('assets/eraser.png') ;
+            }
+            .other{
+                padding: 1%;
+            }
+            h1 {
+                margin-left: 10%;
+            }
+            .About .Skills .other .projects .con{
+                margin-left: 10%;
+                margin-right: 50%;
+                
+                
+            }
+            .paragraph{
+                margin-left: 10%;
+                border-left: 3px solid #04AA6D;
+                padding-left: 10px;
+                margin-right: 3%;
+            }
+            .earth{
+                align-items: center;
+            }
+            .flex_img{
+                display: flex;
+            }
+           .flex_img p{
+            align-items:center;
+            margin-top: 10%;
+            
+           }
+                
+                @media only screen and (max-width: 600px) {#main {margin-left: 0}}
